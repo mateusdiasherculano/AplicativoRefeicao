@@ -71,6 +71,7 @@ class _MyAppState extends State<MyApp> {
             ),
       ),
       home: TabsScreen(_favoriteMeals),
+      debugShowCheckedModeBanner: false,
       routes: {
         AppRoutes.CATEGORIES_MEALS: (context) =>
             CategoriesMealsScreen(_availableMeals),
